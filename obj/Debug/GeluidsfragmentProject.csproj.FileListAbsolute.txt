@@ -8,3 +8,7 @@ D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProjec
 \\VBOXSVR\downloads\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
 C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
 C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\Hilversum.GeluidsfragmentForm.resources
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\Hilversum.Properties.Resources.resources
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.csproj.GenerateResource.Cache

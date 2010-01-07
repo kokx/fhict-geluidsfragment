@@ -24,7 +24,10 @@ namespace Hilversum
     //de getter retourneert het thema
     public String Thema
     {
-        //TODO
+        get
+        {
+            return this.thema;
+        }
     }
 
       /******** methoden ********************************************************/
@@ -33,7 +36,13 @@ namespace Hilversum
     // tenzij dat niet bekend is, dan wordt er null geretourneerd
     public Geluidsfragment GetFragment(int nr)
     {
-      //TODO
+        foreach (Geluidsfragment fragment in fragmenten) {
+            if (fragment.Nr == nr) {
+                return fragment;
+            }
+        }
+
+        return null;
     }
 
     // returns een list met alle geluidsfragmenten.
@@ -45,9 +54,17 @@ namespace Hilversum
     // returns een list met alle geluidsfragmenten met patroon p in de titel.
     public List<Geluidsfragment> GetFragment(String p)
     {
+        List<Geluidsfragment> resultaten = new List<Geluidsfragment>();
         //TODO
         //Hint: Maak gebruik van de methode IndexOf van een String om te
         //achterhalen of een zeker patroon voor komt in een string.
+        foreach (Geluidsfragment fragment in fragmenten) {
+            if (fragment.Bestandsnaam.IndexOf(p)) {
+                resultaten.Add(fragment);
+            }
+        }
+
+        return resultaten;
     }
 
     // indien het opgegeven nummer nr nog niet is toegewezen aan een ander geluidsfragment,
@@ -57,7 +74,15 @@ namespace Hilversum
     // teturnwaarde is false
     public bool AddFragment(int nr, String bestandsnaam, String titel, int min, int sec) 
     {
-      // TODO 
+        foreach (Geluidsfragment fragment in fragmenten) {
+            if (fragment.Nr == nr) {
+                return false;
+            }
+        }
+
+        fragmenten.Add(new Geluidsfragment(nr, bestandsnaam, titel, min, sec));
+
+        return true;
     }
 
   }
