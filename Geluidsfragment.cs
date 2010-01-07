@@ -83,18 +83,27 @@ namespace Hilversum
         //duurt. Een fragment van 135 seconden wordt dus "2:15"
         public string TijdsduurString
         {
-            //TODO
-            //TIP: een deling van twee integergetallen mbv het / teken, levert het geheel
-            //     aantal keer dat de deling lukt. Dus 73/20 levert het integer getal 3 op
+            get
+            {
+                return tijdsduur / 60 + ":" + tijdsduur % 60;
+            }
         }
 
         //zowel getter als setter
         //get retourneert de bestandsnaam (inclusief pad)
         //set zet de bestandsnaam (inclusief pad) 
         //er hoeft niet op het bestaan van de bestandsnaam te worden gecontroleerd
+        // kokx comment: dus, wat heb je aan getters/setters hier? NIKS!
         public string Bestandsnaam
         {
-            //TODO
+            get
+            {
+                return this.bestandsnaam;
+            }
+            set
+            {
+                this.bestandsnaam = value;
+            }
         }
 
         /******** methoden ********************************************************/
@@ -105,7 +114,7 @@ namespace Hilversum
         // "Nr 54: Het grote smurfenlied - 3:18"
         public String AlsString()
         {
-            //return "" + (this.tijdsduur / 60) + "" +  + "";
+            return "Nr " + nr + ": " + titel + " - " + this.TijdsduurString;
         }
 
         //deze methode speelt het geluidsfragment (indien mogelijk) af
