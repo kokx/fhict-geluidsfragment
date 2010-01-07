@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GeluidsfragmentProject.Properties.Resources.resources
+obj\Debug\GeluidsfragmentProject.csproj.GenerateResource.Cache
+bin\Debug\GeluidsfragmentProject.exe
+bin\Debug\GeluidsfragmentProject.pdb
+obj\Debug\GeluidsfragmentProject.exe
+obj\Debug\GeluidsfragmentProject.pdb
+obj\Debug\GeluidsfragmentProject.GeluidsfragmentForm.resources

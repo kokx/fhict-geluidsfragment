@@ -1,0 +1,10 @@
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\ResolveAssemblyReference.cache
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\Hilversum.GeluidsfragmentForm.resources
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\Hilversum.Properties.Resources.resources
+D:\SE12\Opdrachten\week 6\opdracht week 6, geluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.csproj.GenerateResource.Cache
+\\VBOXSVR\downloads\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
+\\VBOXSVR\downloads\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
