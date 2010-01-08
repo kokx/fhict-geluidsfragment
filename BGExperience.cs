@@ -52,14 +52,12 @@ namespace Hilversum
     }
       
     // returns een list met alle geluidsfragmenten met patroon p in de titel.
-    public List<Geluidsfragment> GetFragment(String p)
+    public List<Geluidsfragment> GetFragmenten(String p)
     {
         List<Geluidsfragment> resultaten = new List<Geluidsfragment>();
-        //TODO
-        //Hint: Maak gebruik van de methode IndexOf van een String om te
-        //achterhalen of een zeker patroon voor komt in een string.
+        
         foreach (Geluidsfragment fragment in fragmenten) {
-            if (fragment.Bestandsnaam.IndexOf(p) != -1) {
+            if (fragment.Titel.IndexOf(p) != -1) {
                 resultaten.Add(fragment);
             }
         }

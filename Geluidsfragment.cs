@@ -114,7 +114,7 @@ namespace Hilversum
         // "Nr 54: Het grote smurfenlied - 3:18"
         public String AlsString()
         {
-            return "Nr " + nr + ": " + titel + " - " + this.TijdsduurString;
+            return "Nr " + nr + ": " + titel + " - " + TijdsduurString;
         }
 
         //deze methode speelt het geluidsfragment (indien mogelijk) af

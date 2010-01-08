@@ -35,13 +35,43 @@ namespace Hilversum
     //Speel het juiste geluidsfragment af
     private void bntSpeel_Click(object sender, EventArgs e)
     {
-        bgExperience.GetFragment(Convert.ToInt32(tbFragmentNr.Text)).Play();
+        Geluidsfragment fragment = bgExperience.GetFragment(Convert.ToInt32(tbFragmentNr.Text));
+
+        try {
+            lbAfspeelInfo.Text = fragment.AlsString();
+
+            fragment.Play();
+        } catch (NullReferenceException ex) {
+            MessageBox.Show("Nummer bestaat niet");
+        }
     }
 
     private void btBrowse_Click(object sender, EventArgs e)
     {
       openFileDialog1.ShowDialog();
       tbBestandsnaam.Text = openFileDialog1.FileName;
+    }
+
+    private void toonInfo_Click(object sender, EventArgs e)
+    {
+        List<Geluidsfragment> fragmenten = bgExperience.GetAlleFragmenten();
+
+        info.Items.Clear();
+
+        foreach (Geluidsfragment fragment in fragmenten) {
+            info.Items.Add(fragment.AlsString());
+        }
+    }
+
+    private void zoeken_Click(object sender, EventArgs e)
+    {
+        List<Geluidsfragment> fragmenten = bgExperience.GetFragmenten(zoekwoord.Text);
+
+        infoZoek.Items.Clear();
+
+        foreach (Geluidsfragment fragment in fragmenten) {
+            infoZoek.Items.Add(fragment.AlsString());
+        }
     }
   }
 }
