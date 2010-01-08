@@ -26,14 +26,16 @@ namespace Hilversum
 
     private void btMaakAan_Click(object sender, EventArgs e)
     {
-      //TODO
+        if (!bgExperience.AddFragment(Convert.ToInt32(tbNr.Text), tbBestandsnaam.Text, tbTitel.Text, Convert.ToInt32(tbMin.Text), Convert.ToInt32(tbSec.Text))) {
+            MessageBox.Show("Fragment met nr '" + tbNr.Text + "' bestaat al!");
+        }
     }
 
     
     //Speel het juiste geluidsfragment af
     private void bntSpeel_Click(object sender, EventArgs e)
     {
-      //TODO
+        bgExperience.GetFragment(Convert.ToInt32(tbFragmentNr.Text)).Play();
     }
 
     private void btBrowse_Click(object sender, EventArgs e)

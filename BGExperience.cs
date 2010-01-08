@@ -59,7 +59,7 @@ namespace Hilversum
         //Hint: Maak gebruik van de methode IndexOf van een String om te
         //achterhalen of een zeker patroon voor komt in een string.
         foreach (Geluidsfragment fragment in fragmenten) {
-            if (fragment.Bestandsnaam.IndexOf(p)) {
+            if (fragment.Bestandsnaam.IndexOf(p) != -1) {
                 resultaten.Add(fragment);
             }
         }

@@ -127,7 +127,6 @@ namespace Hilversum
             // 
             // btnSpeel
             // 
-            this.btnSpeel.Enabled = false;
             this.btnSpeel.Location = new System.Drawing.Point(15, 12);
             this.btnSpeel.Name = "btnSpeel";
             this.btnSpeel.Size = new System.Drawing.Size(75, 22);

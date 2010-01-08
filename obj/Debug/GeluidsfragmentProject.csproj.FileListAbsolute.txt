@@ -12,3 +12,5 @@ C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\Resolv
 C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\Hilversum.GeluidsfragmentForm.resources
 C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\Hilversum.Properties.Resources.resources
 C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.csproj.GenerateResource.Cache
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\bin\Debug\GeluidsfragmentProject.exe
+C:\Documents and Settings\Pieter\Desktop\GeluidsfragmentProject\bin\Debug\GeluidsfragmentProject.pdb
